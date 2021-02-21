@@ -1,0 +1,1 @@
+public static void main(String[] args) 에서 뭔가 실수를 하면 런에즈 자바 어플리케이션이 안된다
