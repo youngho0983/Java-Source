@@ -1,0 +1,18 @@
+set classpath=.;.\mysubclass  이런식으로 클래스 패스 지정 가능( 대신 동일  cmd 에서만 됨)
+
+packate orange.perimeter  ==> 이 클래스를 orange디렉터리 안의 perimete 디렉터리에 패키지로 묶음
+public class Circle{
+	double rad;
+	.	..	.	.
+	}
+
+
+클래스는 무조건 패키지에 묶여있는 상태이다
+
+지금까지 패키지에 안 묶인 것 처럼 보인 것들은 모두 이름없는 패키지에 묶여있었다.
+(접근 제어와 관련이 있기 때문에)
+
+
+import 를 이용하면 더이상 패키지를 다 쓰지 않고 사용이 가능해진다.(클래스 이름만 써도되게됨)
+
+import * 를 하면 => 한 디렉터리에 존재하는 모든 것을 가져오게 됨
