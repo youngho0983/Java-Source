@@ -13,5 +13,6 @@ public class ScanningMethods {
 		
 		double tall=s.nextDouble();
 		System.out.println(tall);
+		
 	}
 }
